@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Googel font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+
+<!--css-->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+              <!-- Rating section -->
+
+
+  <div class=" container section_1 ">
+    <div class="star_icon_container">
+      <img class="star_icon" src="images/icon-star.svg" alt="star icon">
+    </div>
+    <div class="content_container">
+      <h1> How did we do?</h1>
+      <p>Please let us know how we did with your support request. All
+        feedback is appreciated to help us improve our offering!</p>
+    </div>
+
+    <form class="form" action="">
+      <div class="rating_container"> 
+        <input type="button" class="rating" value="1">
+        <input type="button" class="rating" value="2">
+        <input type="button" class="rating" value="3">
+        <input type="button" class="rating" value="4">
+        <input type="button" class="rating" value="5">
+      </div>
+      <div class=" show_message ">
+        <small>Please select the above rating </small>
+      </div>
+      <button class="submit_btn" type="submit">Submit</button>
+    </form>
+  </div>
+
+
+
+                <!-- Thank you section -->
+
+ 
+    <div class="container section_2 hide">
+    <div class="thanks_img_container">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+    <div class="rated_section">
+      <h4>You selected <span class="rated"> </span> out of 5</h4>
+    </div>
+    <div class="thanks_section">
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. It you ever need more support, don't hesitate to get in touch!</p>
+    </div>
+    </div>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
+      Coded by <a href="https://github.com/Logesh-pr">Logesh</a>
+    </div>
+  </footer>
+
+
+  <!-- js -->
+  <script src="js/index.js"></script>
+</body>
+</html>
